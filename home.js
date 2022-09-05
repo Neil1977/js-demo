@@ -1,8 +1,11 @@
-let person = {
-    firstName: 'John',
-    lastName: 'Adams'
-};
-console.log(person.firstName);
+
+if (true) {
+    let value = 'yes';
+    showMessage(value);
+}
+
+
+
 
 
 
