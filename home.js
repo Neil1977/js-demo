@@ -1,15 +1,13 @@
-
-let price = 99.99;
-
-// lots of code....
-price = 59.99;
-
-// more code here...
+let person = {
+    firstName: 'John',
+    lastName: 'Adams'
+};
+console.log(person.firstName);
 
 
-price = 29.99;
 
-showMessage(price);
+
+
 
 
 
