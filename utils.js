@@ -1,7 +1,19 @@
-function showMessage(message) {
-    document.getElementById('message').textContent = message;
+let productId = 12345;
+
+function showProductId() {
+    
+    function fix() {
+    
+    console.log('in fix:', productId)
+   }
+
+   fix();
+
+console.log('in showProductId: ', productId);
 }
 
-function changePercentOff(percentage) {
-    document.getElementById("percent-off").textContent = percentage + "% OFF";
-}
+
+showProductId();
+
+
+
